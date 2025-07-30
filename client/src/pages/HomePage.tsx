@@ -14,20 +14,19 @@ export default function HomePage() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto">
-          <TerminalWindow title="terminal@john_doe">
+          <TerminalWindow title="terminal@savithar_savi">
             <div className="p-2 lg:p-4">
               <p className="text-[#00ff00] text-sm lg:text-base mb-4">
-                [root@cybersec ~]$ <TypingEffect text="whoami" onComplete={() => setStartSecondTyping(true)} />
+                [root@cybersec ~]$ <TypingEffect text="I'm Who" onComplete={() => setStartSecondTyping(true)} />
               </p>
               
               <div className="mt-6 mb-8 space-y-1 text-sm lg:text-base">
-                <p>John Doe</p>
-                <p className="text-[#00ff00] font-semibold">Cybersecurity Enthusiast | Ethical Hacker | Developer</p>
+                <p>SAVITHAR A/L RAVICHENDERAN</p>
+                <p className="text-[#00ff00] font-semibold">Cybersecurity Enthusiast | Intermediate Software Developer</p>
               </div>
               
               <div className="space-y-4 my-8">
-                <p className="text-sm lg:text-base">I'm dedicated to identifying and mitigating security vulnerabilities, 
-                with expertise in penetration testing, network security, and secure application development.</p>
+                <p className="text-sm lg:text-base">I'm a second-year Computer Science student specializing in cybersecurity, passionate about securing systems, analyzing threats, exploring network security and ethical hacking.</p>
               </div>
               
               <div className="pt-4 border-t border-[#00ff00]/30">
@@ -44,11 +43,6 @@ export default function HomePage() {
                   <Link href="/projects">
                     <a className="px-4 py-2 border border-[#00ff00] text-[#00ff00] hover:bg-[#00ff00] hover:text-[#121212] transition-colors">
                       ./projects.sh
-                    </a>
-                  </Link>
-                  <Link href="/contact">
-                    <a className="px-4 py-2 border border-[#00ff00] text-[#00ff00] hover:bg-[#00ff00] hover:text-[#121212] transition-colors">
-                      ./contact.sh
                     </a>
                   </Link>
                 </div>

@@ -23,20 +23,20 @@ export default function AboutPage() {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold text-[#00ff00]">John Doe</h3>
-                  <p className="text-sm text-[#e0e0e0]/80 mt-1">Computer Science Student</p>
+                  <h3 className="text-xl font-semibold text-[#00ff00]">SAVITHAR A/L RAVICHENDERAN</h3>
+                  <p className="text-sm text-[#e0e0e0]/80 mt-1">Second Year Computer Science Student at MULTIMEDIA UNIVERSITY</p>
                   <p className="text-sm text-[#e0e0e0]/80">Cybersecurity Specialization</p>
                   
-                  <div className="mt-4 flex space-x-3">
-                    <a href="https://github.com/johndoe" className="text-[#00ff00] hover:text-[#0cbb52]">
-                      <i className="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/johndoe" className="text-[#00ff00] hover:text-[#0cbb52]">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://twitter.com/johndoe" className="text-[#00ff00] hover:text-[#0cbb52]">
-                      <i className="fab fa-twitter"></i>
-                    </a>
+                  <div className="mt-6 flex space-x-6">
+              <a href="https://github.com/svtayger" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/savitharravi/" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:svtpro29@gmail.com" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
+              <i className="fas fa-envelope"></i>
+              </a>
                   </div>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export default function AboutPage() {
               <div>
                 <p className="mb-4">I'm a Computer Science student specializing in cybersecurity, passionate about ethical hacking and secure systems development. Currently building my expertise through hands-on projects, CTF challenges, and continuous learning.</p>
                 
-                <p>My homelab setup includes virtualized environments for security testing, with tools like Wireshark, Metasploit, and custom-built security solutions to practice and enhance my skills.</p>
+                <p>Currently trying my homelab setup. I'm also learning security testing, with tools like Wireshark, Metasploit,HoneyPot to enhance my skills.</p>
               </div>
             </div>
           </TerminalWindow>
@@ -59,15 +59,23 @@ export default function AboutPage() {
                 <ul className="space-y-3">
                   <li className="pl-4 border-l-2 border-[#00ff00]">
                     <h4 className="font-medium">Cisco Introduction to Cybersecurity</h4>
-                    <p className="text-sm text-[#e0e0e0]/70">Completed: June 2022</p>
+                    <p className="text-sm text-[#e0e0e0]/70">Completed: MARCH 2025</p>
                   </li>
                   <li className="pl-4 border-l-2 border-[#00ff00]">
-                    <h4 className="font-medium">Palo Alto Fundamentals of Cloud Security</h4>
-                    <p className="text-sm text-[#e0e0e0]/70">Completed: January 2023</p>
+                    <h4 className="font-medium">Palo Alto Fundamentals of Cloud Security(In progress)</h4>
+                    <p className="text-sm text-[#e0e0e0]/70">Expected: MARCH 2025</p>
                   </li>
                   <li className="pl-4 border-l-2 border-[#00ff00]">
-                    <h4 className="font-medium">CompTIA Security+ (In Progress)</h4>
-                    <p className="text-sm text-[#e0e0e0]/70">Expected: December 2023</p>
+                    <h4 className="font-medium">Cisco Ethical Hacker(In Progress)</h4>
+                    <p className="text-sm text-[#e0e0e0]/70">Expected: APRIL 2025</p>
+                  </li>
+                  <li className="pl-4 border-l-2 border-[#00ff00]">
+                    <h4 className="font-medium">Alison Vulnerability Assessment and Penetration Testing (VAPT)(In Progress)</h4>
+                    <p className="text-sm text-[#e0e0e0]/70">Expected: APRIL 2025</p>
+                  </li>
+                  <li className="pl-4 border-l-2 border-[#00ff00]">
+                    <h4 className="font-medium">Build a Cybersecurity Homelab [Enterprise 101](In Progress)</h4>
+                    <p className="text-sm text-[#e0e0e0]/70">Expected: APRIL 2025</p>
                   </li>
                 </ul>
               </div>
@@ -86,7 +94,6 @@ export default function AboutPage() {
                       <li>Java</li>
                       <li>JavaScript</li>
                       <li>Python</li>
-                      <li>Bash</li>
                     </ul>
                   </div>
                   
@@ -97,7 +104,6 @@ export default function AboutPage() {
                       <li>Node.js</li>
                       <li>Firebase</li>
                       <li>Linux</li>
-                      <li>Docker</li>
                     </ul>
                   </div>
                   
@@ -105,10 +111,9 @@ export default function AboutPage() {
                     <h4 className="text-[#00ff00] mb-2">Security</h4>
                     <ul className="space-y-1 text-sm">
                       <li>Penetration Testing</li>
+                        <li>(Still Learning through HackTheBox)</li>
                       <li>Network Analysis</li>
                       <li>Wireshark</li>
-                      <li>Metasploit</li>
-                      <li>Burp Suite</li>
                     </ul>
                   </div>
                   
@@ -118,8 +123,6 @@ export default function AboutPage() {
                       <li>HTML/CSS</li>
                       <li>Responsive Design</li>
                       <li>REST APIs</li>
-                      <li>OWASP Top 10</li>
-                      <li>Authentication Systems</li>
                     </ul>
                   </div>
                 </div>

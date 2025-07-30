@@ -11,38 +11,32 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    id: "xss-vulnerabilities",
-    date: "2023-10-15",
-    title: "Understanding XSS Vulnerabilities",
-    description: "A comprehensive guide to Cross-Site Scripting vulnerabilities, with practical examples and prevention techniques for web developers.",
-    tags: ["Web Security", "XSS", "Tutorial"],
+    id: "secops-internship-day-one",
+    date: "2025-07-28",
+    title: "Day One as SecOps Intern at Genting Malaysia",
+    description: `My first day at Genting Malaysia Berhad as a Security Operations (SecOps) intern involved getting familiar with the tools and environment used by the team. I learned about various detection and vulnerability management tools, including VDR and firewall systems. Although access was delayed due to pending account registration, I began planning an automated reporting workflow using PowerBI to streamline scheduled security reporting tasks. This experience gave me a clear understanding of my responsibilities and the SecOps workflow.`,
+    tags: ["Internship", "SecOps", "PowerBI", "Detection Tools"],
     url: "#"
   },
   {
-    id: "secure-home-network",
-    date: "2023-09-28",
-    title: "Setting Up a Secure Home Network",
-    description: "Best practices for configuring your home network with security in mind, including router hardening, IoT device isolation, and VPN setup.",
-    tags: ["Network Security", "Home Lab", "How-to"],
+    id: "blackberry-ccoe-ctf",
+    date: "2025-05-08",
+    title: "BlackBerry CCOE CTF – Top 10 Finish",
+    description: `I competed in the BlackBerry CCOE Anniversary Capture the Flag (CTF) competition held at the Centre of Excellence, Cyberjaya. Out of 17 teams, my team whiteberry secured the 10th position. I personally completed all the OSINT (Open-Source Intelligence) challenges, which had the highest point weightage, significantly boosting our score. The event sharpened my investigative and analytical skills while reinforcing the importance of information gathering in cyber operations.`,
+    tags: ["CTF", "OSINT", "Cybersecurity Competition", "BlackBerry"],
     url: "#"
   },
   {
-    id: "defcon-experience",
-    date: "2023-09-10",
-    title: "My Experience at DefCon 2023",
-    description: "A personal account of attending DefCon, including notable talks, workshops, and insights from the cybersecurity community.",
-    tags: ["Conference", "DefCon", "Experience"],
-    url: "#"
-  },
-  {
-    id: "owasp-top-10",
-    date: "2023-08-22",
-    title: "Breaking Down the OWASP Top 10",
-    description: "An in-depth analysis of the latest OWASP Top 10 web application security risks, with real-world examples and mitigation strategies.",
-    tags: ["OWASP", "Web Security", "Best Practices"],
-    url: "#"
+    id: "bsides-ctf-2025",
+    date: "2025-04-21",
+    title: "BSides CTF 2025 – Top 11% Globally",
+    description: `Participated in the BSides CTF 2025 and my team whiteberry ranked 47th out of 435 teams worldwide. This international cybersecurity competition tested skills across multiple domains including web exploitation, reverse engineering, cryptography, and forensics. It was an enriching experience that improved my technical depth and problem-solving under pressure. The event helped me grow as a cybersecurity enthusiast and network with global talent.`,
+    tags: ["CTF", "BSides", "Cybersecurity", "Hacking"],
+    url: "https://ctftime.org/event/2721"
   }
 ];
+
+
 
 export default function BlogPage() {
   return (
@@ -65,7 +59,7 @@ export default function BlogPage() {
                       <span key={index} className="px-2 py-1 bg-[#2a2a2a] text-xs rounded">{tag}</span>
                     ))}
                   </div>
-                  <a href={post.url} className="inline-block mt-4 text-[#00ff00] hover:text-[#0cbb52] text-sm">Read More →</a>
+                  <a href={post.url} className="inline-block mt-4 text-[#00ff00] hover:text-[#0cbb52] text-sm"></a>
                 </div>
               ))}
             </div>

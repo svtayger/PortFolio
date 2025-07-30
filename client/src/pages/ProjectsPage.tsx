@@ -10,61 +10,44 @@ interface Project {
   imageUrl?: string;
 }
 
-// Cybersecurity projects
 const securityProjects: Project[] = [
   {
-    id: "network_traffic_analyzer",
-    title: "Network Traffic Analyzer",
-    description: "A Python-based tool for real-time network traffic monitoring and analysis. Features packet inspection and threat detection.",
-    technologies: ["Python", "Wireshark", "Network Security"],
-    githubUrl: "https://github.com/johndoe/network-analyzer",
-    demoUrl: "#"
-  },
-  {
-    id: "vuln_scanner",
-    title: "Web Vulnerability Scanner",
-    description: "Automated scanner to identify OWASP Top 10 vulnerabilities in web applications. Includes detailed reporting features.",
-    technologies: ["JavaScript", "Node.js", "OWASP"],
-    githubUrl: "https://github.com/johndoe/vuln-scanner",
-    demoUrl: "#"
-  },
-  {
-    id: "ctf_writeups",
-    title: "CTF Challenge Writeups",
-    description: "Detailed documentation of various Capture The Flag challenges, including methodologies and solution approaches.",
-    technologies: ["CTF", "Penetration Testing", "Documentation"],
-    githubUrl: "https://github.com/johndoe/ctf-writeups",
-    demoUrl: "#"
+    id: "kitahack-2025-food-aid",
+    title: "KITAHACK 2025 - Food Aid Coordination App",
+    description: "A hackathon project to optimize and automate food aid distribution in Malaysia using mapping, coordination, and AI-based analytics. Developed during the KITAHACK 2025 event.",
+    technologies: ["Flutter", "Google Maps API", "AI", "Hackathon"],
+    githubUrl: "https://github.com/svtayger/KITAHACK-2025-Food-Aid-Coordination-App",
+    demoUrl: "python model.py for reference"
   }
 ];
 
-// Development projects
 const devProjects: Project[] = [
   {
-    id: "secure_messaging_app",
-    title: "Secure Messaging App",
-    description: "End-to-end encrypted messaging application built with React and Firebase, featuring secure authentication and ephemeral messages.",
-    technologies: ["React", "Firebase", "E2E Encryption"],
-    githubUrl: "https://github.com/johndoe/secure-messaging",
-    demoUrl: "#"
+    id: "book-portal",
+    title: "Book Portal - Secondhand Book Selling Platform",
+    description: "A React + Firebase application that connects buyers and sellers of secondhand books. Users can browse, list, and purchase books easily.",
+    technologies: ["React", "Firebase", "Web App"],
+    githubUrl: "https://github.com", // Add real GitHub repo if you have one
+    demoUrl: "https://book-portal-7dxdjmsfb-svtaygers-projects.vercel.app/"
   },
   {
-    id: "security_dashboard",
-    title: "Security Monitoring Dashboard",
-    description: "Real-time dashboard for monitoring system security metrics, with alerts and comprehensive visualization tools.",
-    technologies: ["JavaScript", "D3.js", "WebSockets"],
-    githubUrl: "https://github.com/johndoe/security-dashboard",
-    demoUrl: "#"
+    id: "leave-application-system",
+    title: "Leave Management System",
+    description: "A simple leave application system built using React and integrated with MSSQL. Designed to handle employee leave requests and approvals.",
+    technologies: ["React", "MSSQL", "Node.js"],
+    githubUrl: "https://github.com", // Add real GitHub repo if you have one
+    demoUrl: "https://leave-application-system-theta.vercel.app/"
   },
   {
-    id: "password_manager",
-    title: "Secure Password Manager",
-    description: "Encrypted password storage solution with zero-knowledge architecture, password strength analysis and breach detection.",
-    technologies: ["C++", "Encryption", "Qt Framework"],
-    githubUrl: "https://github.com/johndoe/password-manager",
-    demoUrl: "#"
+    id: "kwazam-chess",
+    title: "Kwazam Chess",
+    description: "A fully functional chess game built in Java. Includes game logic, board rendering, and rules enforcement for standard chess.",
+    technologies: ["Java", "OOP", "Desktop App"],
+    githubUrl: "https://github.com/svtayger/Kwazan-Chess",
+    demoUrl: "#" // Add live demo if available
   }
 ];
+
 
 function ProjectCard({ project }: { project: Project }) {
   return (

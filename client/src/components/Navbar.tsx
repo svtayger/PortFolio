@@ -11,7 +11,7 @@ export default function Navbar({ onOpenMobileMenu }: NavbarProps) {
         <div className="flex justify-between items-center">
           <Link href="/">
             <a className="text-[#00ff00] text-xl font-semibold flex items-center">
-              <span className="text-[#e0e0e0] mr-1">[</span>john_doe<span className="text-[#e0e0e0]">@</span>security<span className="text-[#e0e0e0]">]</span>
+              <span className="text-[#e0e0e0] mr-1">[</span>SAVITHAR A/L RAVICHENDERAN<span className="text-[#e0e0e0]">@</span>savi<span className="text-[#e0e0e0]">]</span>
               <span className="ml-1 text-[#00ff00] animate-[blink_1s_step-end_infinite]">_</span>
             </a>
           </Link>
@@ -29,9 +29,6 @@ export default function Navbar({ onOpenMobileMenu }: NavbarProps) {
             </Link>
             <Link href="/blog">
               <a className="text-[#00ff00] hover:text-[#0cbb52] transition-colors">~/blog</a>
-            </Link>
-            <Link href="/contact">
-              <a className="text-[#00ff00] hover:text-[#0cbb52] transition-colors">~/contact</a>
             </Link>
           </nav>
           

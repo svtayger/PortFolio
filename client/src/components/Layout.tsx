@@ -41,21 +41,21 @@ export default function Layout({ children }: LayoutProps) {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center">
             <p className="text-center text-sm">
-              <span className="text-[#00ff00]">$</span> Built with <span className="text-[#00ff00]">❤</span> by John Doe
+              <span className="text-[#00ff00]">$</span> Built with <span className="text-[#00ff00]">👨🏻‍💻</span> by SAVI😎
             </p>
             <p className="text-center text-xs mt-2 text-[#e0e0e0]/60">
-              © {new Date().getFullYear()} All rights reserved. Powered by HTML, CSS & JavaScript.
+              © {new Date().getFullYear()} All rights reserved. Powered by REACT ⚛️.
             </p>
             
             <div className="mt-6 flex space-x-6">
-              <a href="https://github.com/johndoe" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
+              <a href="https://github.com/svtayger" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/johndoe" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
+              <a href="https://www.linkedin.com/in/savitharravi/" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://twitter.com/johndoe" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
-                <i className="fab fa-twitter"></i>
+              <a href="mailto:svtpro29@gmail.com" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
+              <i className="fas fa-envelope"></i>
               </a>
               <a href="#" className="text-[#e0e0e0]/60 hover:text-[#00ff00]">
                 <i className="fas fa-rss"></i>
