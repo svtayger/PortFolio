@@ -17,7 +17,7 @@ const securityProjects: Project[] = [
     description: "A hackathon project to optimize and automate food aid distribution in Malaysia using mapping, coordination, and AI-based analytics. Developed during the KITAHACK 2025 event.",
     technologies: ["Flutter", "Google Maps API", "AI", "Hackathon"],
     githubUrl: "https://github.com/svtayger/KITAHACK-2025-Food-Aid-Coordination-App",
-    demoUrl: "python model.py for reference"
+    demoUrl: "https://github.com/justin8ty/food_aid"
   }
 ];
 
@@ -44,7 +44,7 @@ const devProjects: Project[] = [
     description: "A fully functional chess game built in Java. Includes game logic, board rendering, and rules enforcement for standard chess.",
     technologies: ["Java", "OOP", "Desktop App"],
     githubUrl: "https://github.com/svtayger/Kwazan-Chess",
-    demoUrl: "#" // Add live demo if available
+    demoUrl: "https://github.com/svtayger/Kwazan-Chess"
   }
 ];
 
